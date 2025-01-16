@@ -1,0 +1,61 @@
+
+.absa-cards-wrapper > .absa-cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Space between cards */
+}
+
+.absa-cards-wrapper > .absa-cards > ul > li {
+  display: flex;
+  flex-direction: column;
+  width: calc(33.333% - 20px); /* Adjust width for 3 cards in a row */
+  background-color: transparent;
+  border: none;
+}
+
+.absa-cards-wrapper .absa-cards-card-body {
+  display: flex;
+  flex-direction: column; /* Ensure text elements are stacked */
+  justify-content: space-between;
+  padding: 0; /* Remove padding */
+}
+
+.absa-cards-wrapper .absa-cards-card-image {
+  width: 100%;
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.absa-cards-wrapper > .absa-cards > ul > li img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
+
+.absa-cards-wrapper .absa-cards-card-body h5 {
+  margin: 0 0 10px; /* Space below title */
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.absa-cards-wrapper .button-container {
+  margin: 0;
+}
+
+.absa-cards-wrapper .button {
+  color: red;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  background: none; /* Remove button background */
+  padding: 0; /* Remove button padding */
+  border: none; /* Remove button border */
+  font-size: inherit;
+}
+
+.absa-cards-wrapper .button::after {
+  content: ' ➔';
+  margin-left: 5px; /* Space between text and arrow */
+}
