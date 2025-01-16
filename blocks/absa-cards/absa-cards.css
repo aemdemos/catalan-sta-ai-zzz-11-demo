@@ -35,7 +35,7 @@
 }
 
 .absa-cards-wrapper .absa-cards-card-body h5 {
-  margin: 0 0 10px 0; /* Space below title */
+  margin: 0 0 10px; /* Space below title */
   font-size: 16px;
   line-height: 1.5;
 }
